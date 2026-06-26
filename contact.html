@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Contact | BrightPath Web Studio</title>
+  <meta name="description" content="Tell us about your business and we will get back within one business day. BrightPath Web Studio builds simple websites for small businesses.">
+  <link rel="stylesheet" href="css/base.css">
+</head>
+<body>
+
+  <header class="site-header">
+    <nav class="nav">
+      <a href="index.html" class="brand">
+        <span class="brand-mark">B</span>
+        <span>BrightPath Web Studio</span>
+      </a>
+      <button class="nav-toggle" aria-label="Menu">
+        <svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><line x1="3" y1="6" x2="21" y2="6"/><line x1="3" y1="12" x2="21" y2="12"/><line x1="3" y1="18" x2="21" y2="18"/></svg>
+      </button>
+      <ul class="nav-links">
+        <li><a href="index.html">Home</a></li>
+        <li><a href="about.html">About</a></li>
+        <li><a href="services.html">Services</a></li>
+        <li><a href="contact.html" class="nav-cta">Get in Touch</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <main>
+    <section class="hero">
+      <div class="container hero-content">
+        <span class="eyebrow">Contact</span>
+        <h1>Let's talk about your <span class="accent">website.</span></h1>
+        <p class="lead">Tell us a bit about your business and what you are trying to accomplish. We will get back within one business day with next steps.</p>
+      </div>
+    </section>
+
+    <section style="padding-top:0">
+      <div class="container">
+
+        <div class="contact-info">
+          <div class="card">
+            <div class="icon" style="margin:0 auto 14px">
+              <svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M4 4h16c1.1 0 2 .9 2 2v12c0 1.1-.9 2-2 2H4c-1.1 0-2-.9-2-2V6c0-1.1.9-2 2-2z"/><polyline points="22,6 12,13 2,6"/></svg>
+            </div>
+            <h3 style="margin-bottom:6px">Email</h3>
+            <a href="mailto:hello@brightpathweb.studio">hello@brightpathweb.studio</a>
+          </div>
+          <div class="card">
+            <div class="icon" style="margin:0 auto 14px">
+              <svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M21 10c0 7-9 13-9 13s-9-6-9-13a9 9 0 0 1 18 0z"/><circle cx="12" cy="10" r="3"/></svg>
+            </div>
+            <h3 style="margin-bottom:6px">Based In</h3>
+            <p style="color:var(--text-dim);font-size:15px">Orem, Utah</p>
+            <p style="color:var(--text-mute);font-size:13px;margin-top:4px">Remote clients across the U.S.</p>
+          </div>
+          <div class="card">
+            <div class="icon" style="margin:0 auto 14px">
+              <svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><circle cx="12" cy="12" r="10"/><polyline points="12 6 12 12 16 14"/></svg>
+            </div>
+            <h3 style="margin-bottom:6px">Response Time</h3>
+            <p style="color:var(--text-dim);font-size:15px">Within 1 business day</p>
+          </div>
+        </div>
+
+        <form class="form contact-form">
+          <div class="form-row">
+            <label for="name">Your Name</label>
+            <input type="text" id="name" name="name" required>
+          </div>
+          <div class="form-row">
+            <label for="email">Email Address</label>
+            <input type="email" id="email" name="email" required>
+          </div>
+          <div class="form-row">
+            <label for="business">Business Name</label>
+            <input type="text" id="business" name="business">
+          </div>
+          <div class="form-row">
+            <label for="service">What do you need?</label>
+            <select id="service" name="service">
+              <option value="starter">Starter Website (4 pages)</option>
+              <option value="landing">One-Page Landing Site</option>
+              <option value="redesign">Basic Redesign</option>
+              <option value="maintenance">Simple Maintenance</option>
+              <option value="unsure">Not sure yet</option>
+            </select>
+          </div>
+          <div class="form-row">
+            <label for="message">Tell us about your business</label>
+            <textarea id="message" name="message" placeholder="What do you do? Who do you serve? What do you want visitors to do on your site?" required></textarea>
+          </div>
+          <button type="submit" class="btn btn-primary" style="width:100%;justify-content:center">
+            Send Message
+            <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><line x1="22" y1="2" x2="11" y2="13"/><polygon points="22 2 15 22 11 13 2 9 22 2"/></svg>
+          </button>
+          <div class="form-note">This is a preview site. The form does not send messages yet. After launch, it will deliver straight to your inbox.</div>
+          <div class="success-msg">Thanks. In production, your message would land in our inbox.</div>
+        </form>
+
+      </div>
+    </section>
+  </main>
+
+  <footer class="site-footer">
+    <div class="container footer-content">
+      <a href="index.html" class="brand">
+        <span class="brand-mark">B</span>
+        <span>BrightPath Web Studio</span>
+      </a>
+      <p>Orem, Utah. Remote clients across the U.S.</p>
+      <p>&copy; 2026 BrightPath Web Studio</p>
+    </div>
+  </footer>
+
+  <script src="js/main.js"></script>
+</body>
+</html>
