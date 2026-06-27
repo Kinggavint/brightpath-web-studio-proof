@@ -100,7 +100,7 @@ a:hover { color: var(--accent-hover); }
 
 /* Hero */
 .hero {
-  padding: 88px 0 72px;
+  padding: 100px 0 100px;
   position: relative;
   overflow: hidden;
 }
@@ -113,7 +113,24 @@ a:hover { color: var(--accent-hover); }
 }
 .hero-content {
   position: relative;
-  max-width: 760px;
+  z-index: 2;
+}
+.hero-visual {
+  display: flex;
+  align-items: center;
+  justify-content: flex-end;
+  position: relative;
+}
+.hero-img {
+  width: 100%;
+  height: auto;
+  max-width: 500px;
+  filter: drop-shadow(0 20px 40px rgba(0,0,0,0.4));
+  animation: float 6s ease-in-out infinite;
+}
+@keyframes float {
+  0%, 100% { transform: translateY(0); }
+  50% { transform: translateY(-20px); }
 }
 .eyebrow {
   display: inline-block;
@@ -401,7 +418,24 @@ h3 {
   .nav-links.open { display: flex; }
   .nav-toggle { display: block; }
   .two-col { grid-template-columns: 1fr; gap: 36px; }
+  .hero-visual {
+    justify-content: center;
+    order: -1;
+  }
+  .hero-img {
+    max-width: 300px;
+  }
+  .hero {
+    text-align: center;
+    padding: 60px 0 48px;
+  }
+  .lead {
+    margin-left: auto;
+    margin-right: auto;
+  }
+  .btn-group {
+    justify-content: center;
+  }
   .cta-banner { padding: 36px 24px; }
   section { padding: 56px 0; }
-  .hero { padding: 56px 0 48px; }
 }
