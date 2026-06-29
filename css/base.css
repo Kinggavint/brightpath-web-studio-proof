@@ -6,8 +6,8 @@
   --text: #f4f5f7;
   --text-dim: #b6bac4;
   --text-mute: #8a8f9c;
-  --accent: #2563eb;
-  --accent-hover: #3b82f6;
+  --accent: #16a34a;
+  --accent-hover: #22c55e;
   --border: #2a2e38;
   --max: 1120px;
   --radius: 10px;
@@ -108,7 +108,7 @@ a:hover { color: var(--accent-hover); }
   content: "";
   position: absolute;
   inset: 0;
-  background: radial-gradient(800px 400px at 20% 10%, rgba(37,99,235,0.12), transparent 60%);
+  background: radial-gradient(800px 400px at 20% 10%, rgba(22,163,74,0.12), transparent 60%);
   pointer-events: none;
 }
 .hero-content {
@@ -141,8 +141,8 @@ a:hover { color: var(--accent-hover); }
   text-transform: uppercase;
   margin-bottom: 16px;
   padding: 6px 12px;
-  background: rgba(37,99,235,0.1);
-  border: 1px solid rgba(37,99,235,0.25);
+  background: rgba(22,163,74,0.1);
+  border: 1px solid rgba(22,163,74,0.25);
   border-radius: 999px;
 }
 h1 {
@@ -228,11 +228,11 @@ h3 {
   padding: 28px;
   transition: border-color .15s ease, transform .15s ease;
 }
-.card:hover { border-color: rgba(37,99,235,0.45); transform: translateY(-2px); }
+.card:hover { border-color: rgba(22,163,74,0.45); transform: translateY(-2px); }
 .card .icon {
   width: 40px;
   height: 40px;
-  background: rgba(37,99,235,0.12);
+  background: rgba(22,163,74,0.12);
   border-radius: 8px;
   display: inline-flex;
   align-items: center;
@@ -277,12 +277,12 @@ h3 {
   content: "";
   position: absolute;
   inset: 0;
-  background: radial-gradient(circle at 30% 30%, rgba(37,99,235,0.18), transparent 60%);
+  background: radial-gradient(circle at 30% 30%, rgba(22,163,74,0.18), transparent 60%);
 }
 .visual-grid {
   position: absolute;
   inset: 0;
-  background-image: linear-gradient(rgba(37,99,235,0.07) 1px, transparent 1px), linear-gradient(90deg, rgba(37,99,235,0.07) 1px, transparent 1px);
+  background-image: linear-gradient(rgba(22,163,74,0.07) 1px, transparent 1px), linear-gradient(90deg, rgba(22,163,74,0.07) 1px, transparent 1px);
   background-size: 32px 32px;
 }
 .visual-blob-img {
@@ -317,8 +317,8 @@ h3 {
 
 /* CTA banner */
 .cta-banner {
-  background: linear-gradient(135deg, rgba(37,99,235,0.15) 0%, rgba(37,99,235,0.04) 100%);
-  border: 1px solid rgba(37,99,235,0.3);
+  background: linear-gradient(135deg, rgba(22,163,74,0.15) 0%, rgba(22,163,74,0.04) 100%);
+  border: 1px solid rgba(22,163,74,0.3);
   border-radius: var(--radius);
   padding: 56px;
   text-align: center;
